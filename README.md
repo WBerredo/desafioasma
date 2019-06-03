@@ -17,6 +17,8 @@ O Kibana é o responsável pela agregação e visualização dos dados e métric
 Para visualização, além do filtro padrão por **data**, foram utilizados filtros por **sexo** e **faixa etária**; sempre utilizando a agregração do tipo **soma** para contabilizar o número de casos que ocorreram no período de tempo avaliado.
 
 ## Dados
+Para este projeto, foram utilizados dados de 2007 a 2016.
+
 Os dados utilizados foram coletados das seguintes fontes:
   * [Painel de Monitoramento da Mortalidade CID-10](http://svs.aids.gov.br/dantps/centrais-de-conteudos/paineis-de-monitoramento/mortalidade/cid10), agregados por data, sexo e idade.
   
