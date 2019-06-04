@@ -34,9 +34,34 @@
           height="1300"
           width="100%"
         ></iframe>
+
+        <div id="switch-dash">
+        </div>
       </div>
 
-    <!---->
+    <!-- scripts -->
+    <script>
+      var asmaDash = "https://search-iron-lungs-7l4zfrsvb74dctskmsyj5xac3i.us-east-2.es.amazonaws.com/_plugin/kibana/app/kibana#/dashboard/87c91530-81ca-11e9-b97d-038f51a2d7d1?embed=true&_g=(filters%3A!(('%24state'%3A(store%3AglobalState)%2Cmeta%3A(alias%3A!n%2CcontrolledBy%3A'1559423257258'%2Cdisabled%3A!f%2Cindex%3A'8feb5040-81c3-11e9-b97d-038f51a2d7d1'%2Ckey%3A'ano_(uid)'%2Cnegate%3A!f%2Cparams%3A(gte%3A2007%2Clte%3A2017)%2Ctype%3Arange%2Cvalue%3A'2%2C007%20to%202%2C017')%2Crange%3A('ano_(uid)'%3A(gte%3A2007%2Clte%3A2017))))%2CrefreshInterval%3A(pause%3A!t%2Cvalue%3A0)%2Ctime%3A(from%3A'2006-01-01T04%3A00%3A00.000Z'%2Cmode%3Aabsolute%2Cto%3A'2017-01-01T04%3A00%3A00.000Z'))";
+      var secondaryDash = "https://search-iron-lungs-7l4zfrsvb74dctskmsyj5xac3i.us-east-2.es.amazonaws.com/_plugin/kibana/app/kibana#/dashboard/dec5fb40-8685-11e9-b97d-038f51a2d7d1?embed=true&_g=(refreshInterval%3A(pause%3A!t%2Cvalue%3A0)%2Ctime%3A(from%3A'1999-01-03T08%3A20%3A29.845Z'%2Cmode%3Aquick%2Cto%3A'2016-02-13T18%3A49%3A56.908Z'))";
+      var switchDashBtn = document.getElementById('switch-dash');
+      var asmaHeight = '1300px';
+      var secondaryHeight = '1750px';
+      var onAsma = false;
+
+      function switchDash(e) {
+        if (e) e.preventDefault();
+        onAsma = !onAsma;
+
+        var iframe = document.getElementsByTagName('iframe')[0];
+
+        iframe.setAttribute('src', onAsma ? asmaDash : secondaryDash);
+        iframe.setAttribute('height', onAsma ? asmaHeight : secondaryHeight);
+        switchDashBtn.innerHTML = onAsma ? 'Gráficos complementares →': '← Asma no Brasil';
+      }
+
+      switchDash(null);
+      switchDashBtn.addEventListener('click', switchDash);
+    </script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>

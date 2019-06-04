@@ -41,6 +41,27 @@ iframe {
     background-color: #DAEAED;
 }
 
+#switch-dash {
+  height: 35px;
+  border-radius: 20.5px;
+  background-color: #caf1eb;
+  position: fixed;
+  bottom: 35px;
+  right: 30px;
+  cursor: pointer;
+
+  color: #343f5c;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 10px;
+  line-height: 15px;
+  user-select: none;
+}
+
+#switch-dash:hover {
+    box-shadow: 0 2px 9px 0 rgba(0, 0, 0, 0.09);
+}
+
 .header {
     position: fixed;
     width: 100%;
