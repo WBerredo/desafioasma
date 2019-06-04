@@ -33,6 +33,8 @@ Os dados utilizados foram coletados das seguintes fontes:
 
   * [Denatran - Frota de Veículos 2018](http://www.denatran.gov.br/estatistica/635-frota-2018). Dados agregados por tipo de veículo e estado.
 
+  * [CNI - Perfil das Indústrias nos estados](http://perfildaindustria.portaldaindustria.com.br/). Dados agregados por estado. Os dados utilizados são de 2018.
+
 ## Uso
 Para utilizar o observatório, é necessário:
 * Acessar o [link](https://wberredo.github.io/desafioasma/);
