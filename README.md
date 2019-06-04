@@ -29,7 +29,9 @@ Os dados utilizados foram coletados das seguintes fontes:
 
   * [Instituto Nacional de Meteorologia: NORMAIS CLIMATOLÓGICAS DO BRASIL](http://www.inmet.gov.br/portal/index.php?r=clima/normaisClimatologicas). Os dados utilizados são de 1981 a 2010.
 
-  * [DATASUS: Cadastro Nacional de Estabelecimentos de saúde](http://www2.datasus.gov.br/DATASUS/index.php?area=0204), dados agregados por região e tipo de estabelecimento. Os dados utilizados são de dezembro de 2018.
+  * [DATASUS: Cadastro Nacional de Estabelecimentos de saúde](http://www2.datasus.gov.br/DATASUS/index.php?area=0204&id=6906), dados agregados por região e tipo de estabelecimento. Os dados utilizados são de dezembro de 2018.
+
+  * [Denatran - Frota de Veículos 2018](http://www.denatran.gov.br/estatistica/635-frota-2018). Dados agregados por tipo de veículo e estado.
 
 ## Uso
 Para utilizar o observatório, é necessário:
@@ -41,7 +43,9 @@ Para utilizar o observatório, é necessário:
 
   * Por data;
   * Por sexo;
-  * Por faixa etária.
+  * Por faixa etária;
+
+* É possível alternar entre os dados de asmas e gráficos com informações complementares.
 
 ## Colaboradores
 * Wesley Berrêdo
