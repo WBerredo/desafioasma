@@ -14,15 +14,20 @@ O Elasticsearch foi o banco selecionado para receber os dados coletados, sendo n
 ### Kibana
 O Kibana é o responsável pela agregação e visualização dos dados e métricas. Após serem criados os gráficos e as métricas a serem avaliadas, são feitas pesquisas no banco Elasticsearch para coletar, agregar e mostrar métricas.
 
-Para visualização, além do filtro padrão por **data**, foram utilizados filtros por **sexo** e **faixa etária**; sempre utilizando a agregração do tipo **soma** para contabilizar o número de casos que ocorreram no período de tempo avaliado.
+Para visualização dos dados da asma, além do filtro padrão por **data**, foram utilizados filtros por **sexo** e **faixa etária**; sempre utilizando a agregração do tipo **soma** para contabilizar o número de casos que ocorreram no período de tempo avaliado.
+
+Para os dados mostrados mapas, foram utilizadas agregações por localização, nome do estado ou UF, mostrando como valor da métrica a média dos valores encontrados.
 
 ## Dados
-Para este projeto, foram utilizados dados de 2007 a 2016.
 
 Os dados utilizados foram coletados das seguintes fontes:
-  * [Painel de Monitoramento da Mortalidade CID-10](http://svs.aids.gov.br/dantps/centrais-de-conteudos/paineis-de-monitoramento/mortalidade/cid10), agregados por data, sexo e idade.
+  * [Painel de Monitoramento da Mortalidade CID-10](http://svs.aids.gov.br/dantps/centrais-de-conteudos/paineis-de-monitoramento/mortalidade/cid10), agregados por data, sexo e idade. Foram utilizados dados de 2007 a 2016.
   
+  * [Portal Brasileiro de Dados Abertos: Distribuição Unidades Básicas de Saúde em Funcionamento - UBS](http://dados.gov.br/dataset/ubs_funcionamento). Os dados utilizados são atuais.
+
   * [Portal da Transparência 2018](http://www.portaltransparencia.gov.br/funcoes/10-saude?ano=2018): Distribuição das despesas com saúde por localidade.
+
+  * [Instituto Nacional de Meteorologia: NORMAIS CLIMATOLÓGICAS DO BRASIL](http://www.inmet.gov.br/portal/index.php?r=clima/normaisClimatologicas). Os dados utilizados são de 1981 a 2010.
 
 ## Uso
 Para utilizar o observatório, é necessário:
