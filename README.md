@@ -29,6 +29,8 @@ Os dados utilizados foram coletados das seguintes fontes:
 
   * [Instituto Nacional de Meteorologia: NORMAIS CLIMATOLÓGICAS DO BRASIL](http://www.inmet.gov.br/portal/index.php?r=clima/normaisClimatologicas). Os dados utilizados são de 1981 a 2010.
 
+  * [DATASUS: Cadastro Nacional de Estabelecimentos de saúde](http://www2.datasus.gov.br/DATASUS/index.php?area=0204), dados agregados por região e tipo de estabelecimento. Os dados utilizados são de dezembro de 2018.
+
 ## Uso
 Para utilizar o observatório, é necessário:
 * Acessar o [link](https://wberredo.github.io/desafioasma/);
