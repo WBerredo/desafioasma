@@ -22,6 +22,7 @@ Para este projeto, foram utilizados dados de 2007 a 2016.
 Os dados utilizados foram coletados das seguintes fontes:
   * [Painel de Monitoramento da Mortalidade CID-10](http://svs.aids.gov.br/dantps/centrais-de-conteudos/paineis-de-monitoramento/mortalidade/cid10), agregados por data, sexo e idade.
   
+  * [Portal da Transparência 2018](http://www.portaltransparencia.gov.br/funcoes/10-saude?ano=2018): Distribuição das despesas com saúde por localidade.
 
 ## Uso
 Para utilizar o observatório, é necessário:
