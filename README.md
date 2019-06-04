@@ -16,7 +16,7 @@ O Kibana é o responsável pela agregação e visualização dos dados e métric
 
 Para visualização dos dados da asma, além do filtro padrão por **data**, foram utilizados filtros por **sexo** e **faixa etária**; sempre utilizando a agregração do tipo **soma** para contabilizar o número de casos que ocorreram no período de tempo avaliado.
 
-Para os dados mostrados mapas, foram utilizadas agregações por localização, nome do estado ou UF, mostrando como valor da métrica a média dos valores encontrados.
+Para os dados mostrados em mapas, foram utilizadas agregações por localização, nome do estado ou UF, mostrando como valor da métrica a média dos valores encontrados quando se trata de valores relativos, e soma dos valores encontrados se tratando de valores absolutos.
 
 ## Dados
 
